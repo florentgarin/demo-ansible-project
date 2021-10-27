@@ -1,4 +1,6 @@
-- webservers: all
+- name: whatever
+  hosts: all
   tasks:
-    - name: ping
-      ping:
+  - ping:
+  - name: Hello World!
+    shell: echo whatever
