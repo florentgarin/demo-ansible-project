@@ -3,4 +3,4 @@
   tasks:
   - ping:
   - name: Hello World!
-    shell: echo whatever
+    shell: echo {{ name }}
